@@ -1,0 +1,1 @@
+export const runtime="nodejs";import { readJSON } from "@/lib/fsdb";export async function GET(){const demo=await readJSON("demo.json",{products:[],clients:[]});return Response.json({products:demo.products||[],clients:demo.clients||[]});}

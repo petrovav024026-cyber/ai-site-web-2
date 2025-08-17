@@ -1,0 +1,14 @@
+{
+  "/ai-doc/page": "app/ai-doc/page.js",
+  "/solutions/page": "app/solutions/page.js",
+  "/page": "app/page.js",
+  "/ai-kp/page": "app/ai-kp/page.js",
+  "/api/catalog/route": "app/api/catalog/route.js",
+  "/ai-tok/page": "app/ai-tok/page.js",
+  "/svc/[slug]/page": "app/svc/[slug]/page.js",
+  "/contacts/page": "app/contacts/page.js",
+  "/cabinet/page": "app/cabinet/page.js",
+  "/cabinet/admin/page": "app/cabinet/admin/page.js",
+  "/cabinet/admin/services/page": "app/cabinet/admin/services/page.js",
+  "/api/services/route": "app/api/services/route.js"
+}

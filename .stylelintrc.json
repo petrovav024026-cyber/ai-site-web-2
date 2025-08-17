@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "stylelint-config-standard"
+  ],
+  "rules": {
+    "declaration-no-important": true,
+    "font-weight-notation": "numeric",
+    "declaration-property-value-disallowed-list": {
+      "font-weight": [
+        "/^[7-9]00$/"
+      ]
+    },
+    "color-named": "never"
+  }
+}

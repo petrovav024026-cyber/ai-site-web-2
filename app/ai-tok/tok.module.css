@@ -1,0 +1,5 @@
+.grid{ display:grid; grid-template-columns: 1.2fr .8fr; gap:24px; align-items:start; }
+@media (max-width: 960px){ .grid{ grid-template-columns: 1fr; } }
+.form{ display:flex; flex-direction:column; gap:10px; }
+.result{ position: sticky; top:80px; }
+.actions{ margin-top:8px; }

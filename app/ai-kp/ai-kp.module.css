@@ -1,0 +1,10 @@
+.grid{ display:grid; grid-template-columns: 2fr 1fr; gap:24px; }
+@media (max-width: 900px){ .grid{ grid-template-columns: 1fr; } }
+.catalog{ width:100%; border-collapse: collapse; }
+.catalog th, .catalog td{ padding:8px 10px; border-bottom:1px solid #eee; text-align:left; }
+.qty{ display:inline-flex; gap:8px; align-items:center; }
+.cart{ position: sticky; top:80px; align-self:start; }
+.totals{ margin:12px 0; }
+.inline{ display:flex; align-items:center; gap:8px; margin-top:8px; }
+.actions{ margin-top:12px; display:flex; gap:12px; align-items:center; }
+.active{ color: var(--color-link); }

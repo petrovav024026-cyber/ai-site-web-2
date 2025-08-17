@@ -1,0 +1,64 @@
+{
+  "services": [
+    {
+      "id": "ai-kp",
+      "slug": "ai-kp",
+      "title": "AI KP — интерактивное КП",
+      "short": "Соберите КП из каталога и получите ссылку на оплату.",
+      "route": "/ai-kp",
+      "active": true,
+      "order": 1
+    },
+    {
+      "id": "ai-tok",
+      "slug": "ai-tok",
+      "title": "AI TOK — токенизатор внедрения",
+      "short": "Расчёт CAPEX/OPEX, ROI и срока окупаемости.",
+      "route": "/ai-tok",
+      "active": true,
+      "order": 2
+    },
+    {
+      "id": "ai-doc",
+      "slug": "ai-doc",
+      "title": "AI DOC — интерактивный договор",
+      "short": "Шаблоны, модули, версии, share-ссылки и экспорт.",
+      "route": "/svc/ai-doc",
+      "active": true,
+      "order": 3,
+      "steps": [
+        {
+          "key": "template",
+          "title": "Шаблон",
+          "kind": "form",
+          "md": "# Шаблон\\nВыберите тип: **услуги** / подписка / проект."
+        },
+        {
+          "key": "requisites",
+          "title": "Реквизиты",
+          "kind": "form",
+          "md": "# Реквизиты\\nСтороны, ИНН/КПП, банк, адрес."
+        },
+        {
+          "key": "modules",
+          "title": "Модули",
+          "kind": "form",
+          "md": "# Модули\\n- NDA\\n- SLA\\n- 152-ФЗ\\n- ИС и т.д."
+        },
+        {
+          "key": "preview",
+          "title": "Просмотр",
+          "kind": "review",
+          "md": "# Просмотр\\nПроверка разметки договора перед шарингом."
+        },
+        {
+          "key": "share",
+          "title": "Шэйр/Экспорт",
+          "kind": "text",
+          "md": "# Шаринг\\nСгенерируйте ссылку и/или экспортируйте PDF."
+        }
+      ]
+    }
+  ],
+  "updatedAt": "2025-08-17T07:50:50.378186Z"
+}

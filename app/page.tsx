@@ -1,0 +1,1 @@
+import Link from "next/link";export const metadata={title:"AI Studio B2BcAI — главная",description:"Минималистичный сайт студии AI"};export default function Page(){return (<div><h1>AI Studio B2BcAI</h1><p>Минималистичный сайт со службами AI KP / AI TOK / AI DOC.</p><p><Link href="/solutions">AI решения для B2B</Link> · <Link href="/contacts">Контакты</Link></p></div>);}

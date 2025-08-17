@@ -1,0 +1,35 @@
+{
+  "company": {
+    "name": "AI Studio B2BcAI",
+    "inn": "7700000000",
+    "kpp": "770001001"
+  },
+  "products": [
+    {
+      "sku": "AI-KP-001",
+      "name": "Витрина КП",
+      "price": 12000,
+      "vat": 20
+    },
+    {
+      "sku": "AI-TOK-BASE",
+      "name": "Токенизатор базовый",
+      "price": 35000,
+      "vat": 20
+    },
+    {
+      "sku": "AI-DOC-LITE",
+      "name": "Интерактивный договор (lite)",
+      "price": 28000,
+      "vat": 20
+    }
+  ],
+  "clients": [
+    {
+      "id": "c_demo_1",
+      "name": "ООО «Приморье»",
+      "email": "owner@primorye.ru",
+      "phone": "+7 900 000-00-00"
+    }
+  ]
+}

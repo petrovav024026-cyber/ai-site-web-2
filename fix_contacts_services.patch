@@ -1,0 +1,28 @@
+diff --git a/app/contacts/page.tsx b/app/contacts/page.tsx
+index 1234567..89abcde 100644
+--- a/app/contacts/page.tsx
++++ b/app/contacts/page.tsx
+@@ -25,6 +25,22 @@ export default function ContactsPage() {
+           </label>
+         </div>
+
++        {/* Блок выбора услуг */}
++        <div className="mb-4">
++          <p className="mb-2 font-medium text-gray-700">Выберите интересующие услуги:</p>
++          <label className="flex items-center mb-2">
++            <input type="checkbox" name="services" value="ai-kp" className="mr-2"/>
++            <span>AI KP — интерактивное КП</span>
++          </label>
++          <label className="flex items-center mb-2">
++            <input type="checkbox" name="services" value="ai-tok" className="mr-2"/>
++            <span>AI TOK — токенизатор внедрения</span>
++          </label>
++          <label className="flex items-center mb-2">
++            <input type="checkbox" name="services" value="ai-doc" className="mr-2"/>
++            <span>AI DOC — интерактивный договор</span>
++          </label>
++        </div>
++
+         <div className="mb-4 flex items-center">
+           <input
+             type="checkbox"

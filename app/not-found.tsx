@@ -1,0 +1,1 @@
+import Link from "next/link";export default function NotFound(){return <div className="container"><h1>404 — страница не найдена</h1><p><Link href="/">На главную</Link></p></div>; }

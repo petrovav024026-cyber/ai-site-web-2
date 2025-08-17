@@ -1,0 +1,47 @@
+diff --git a/styles/globals.css b/styles/globals.css
+--- a/styles/globals.css
++++ b/styles/globals.css
+@@ -0,0 +1,42 @@
++/* === form UI fixes (checkbox + submit button) === */
++
++/* Чекбокс — аккуратный квадрат */
++input[type="checkbox"] {
++  width: 16px;
++  height: 16px;
++  appearance: none;
++  -webkit-appearance: none;
++  -moz-appearance: none;
++  border: 2px solid #00AEEF;
++  border-radius: 4px;
++  display: inline-block;
++  position: relative;
++  margin-right: 8px;
++  vertical-align: middle;
++  cursor: pointer;
++}
++input[type="checkbox"]:checked {
++  background-color: #00AEEF;
++}
++input[type="checkbox"]:checked::after {
++  content: "";
++  position: absolute;
++  top: 2px;
++  left: 5px;
++  width: 4px;
++  height: 8px;
++  border: solid #fff;
++  border-width: 0 2px 2px 0;
++  transform: rotate(45deg);
++}
++
++/* Кнопка отправки формы — фирменный синий */
++button[type="submit"] {
++  background-color: #00AEEF;
++  color: #fff;
++  border: none;
++  border-radius: 12px;
++  padding: 10px 18px;
++  box-shadow: 0 2px 6px rgba(0,0,0,.06);
++  transition: background-color .2s ease;
++}
++button[type="submit"]:hover { background-color: #26A5E4; }

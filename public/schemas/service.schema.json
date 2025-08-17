@@ -1,0 +1,44 @@
+{
+  "$id": "https://b2bc.ai/schemas/service.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Service",
+  "type": "object",
+  "required": [
+    "id",
+    "slug",
+    "title",
+    "route",
+    "active",
+    "order"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "short": {
+      "type": "string"
+    },
+    "route": {
+      "type": "string"
+    },
+    "active": {
+      "type": "boolean"
+    },
+    "order": {
+      "type": "number"
+    },
+    "steps": {
+      "type": "array",
+      "items": {
+        "$ref": "https://b2bc.ai/schemas/step.schema.json"
+      }
+    }
+  },
+  "additionalProperties": true
+}

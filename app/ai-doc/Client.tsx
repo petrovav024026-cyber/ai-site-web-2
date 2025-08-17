@@ -1,0 +1,1 @@
+"use client";export default function Client(){return (<div><h1>AI DOC — интерактивный договор (демо)</h1><p>На этой странице позже появится мастер создания договора.</p></div>);}
