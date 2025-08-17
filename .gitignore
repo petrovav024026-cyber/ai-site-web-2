@@ -1,0 +1,17 @@
+﻿@"
+# deps
+node_modules/
+.pnpm-store/
+
+# build
+.next/
+dist/
+out/
+
+# env
+.env
+.env.local
+
+# logs / backups
+*.log
+*.bak
